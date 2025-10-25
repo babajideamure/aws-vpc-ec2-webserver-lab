@@ -1,12 +1,12 @@
-# 🧠 AWS VPC + EC2 Web Server Lab
+# AWS VPC + EC2 Web Server Lab
 
-## 🌍 Overview
+## Overview
 This hands-on lab demonstrates how to design and deploy a **secure AWS Virtual Private Cloud (VPC)** with public and private subnets, EC2 instances, and a web server.  
 It’s perfect for learning **AWS networking fundamentals** and showcasing your **cloud architecture skills**.
 
 ---
 
-## 🏗️ What You Will Build
+## What You Will Build
 - A custom **VPC** with CIDR block (e.g., `10.0.0.0/16`)
 - **2 Public Subnets** and **2 Private Subnets** across different Availability Zones
 - **Internet Gateway (IGW)** for public access  
@@ -19,7 +19,7 @@ It’s perfect for learning **AWS networking fundamentals** and showcasing your 
 
 ---
 
-## 🧰 Prerequisites
+## Prerequisites
 - AWS Free Tier account  
 - Basic understanding of EC2 and networking  
 - SSH key pair (`.pem` file)  
@@ -27,7 +27,7 @@ It’s perfect for learning **AWS networking fundamentals** and showcasing your 
 
 ---
 
-## 🪜 Steps (High-Level)
+## Steps (High-Level)
 
 ### 1. Create the VPC
 - CIDR: `10.0.0.0/16`
@@ -73,7 +73,7 @@ It’s perfect for learning **AWS networking fundamentals** and showcasing your 
 
 ---
 
-## 🏗️ What You Will Build
+## What You Will Build
 - A custom **VPC** with CIDR block (e.g., `10.0.0.0/16`)
 - **2 Public Subnets** and **2 Private Subnets** across different Availability Zones
 - **Internet Gateway (IGW)** for public access  
@@ -86,7 +86,7 @@ It’s perfect for learning **AWS networking fundamentals** and showcasing your 
 
 ---
 
-## 🧰 Prerequisites
+## Prerequisites
 - AWS Free Tier account  
 - Basic understanding of EC2 and networking  
 - SSH key pair (`.pem` file)  
@@ -145,10 +145,10 @@ http://<your-public-ec2-public-ip>
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Babajide Amure**
 AWS Instructor | Cloud & DevOps Consultant
 📍 Abuja, Nigeria
-🌐 [jaydeploy.com](https://jaydeploy.com)
+🌐 [jaydeploy.com](https://www.jaydeploy.com)
 
