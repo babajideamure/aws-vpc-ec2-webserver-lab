@@ -59,19 +59,14 @@ sudo systemctl enable httpd
 echo "Hello from AWS Web Server!" | sudo tee /var/www/html/index.html
 
 http://<your-public-ec2-public-ip>
-🔥 Excellent draft — this already reads like a professional lab README!
-To make it **cleaner, properly formatted, and GitHub-ready**, here’s a polished Markdown version you can copy directly into your `README.md` file 👇
 
----
 
-````markdown
 # 🧠 AWS VPC + EC2 Web Server Lab
 
 ## 🌍 Overview
 This hands-on lab demonstrates how to design and deploy a **secure AWS Virtual Private Cloud (VPC)** with public and private subnets, EC2 instances, and a web server.  
 It’s perfect for learning **AWS networking fundamentals** and showcasing your **cloud architecture skills**.
 
----
 
 ## What You Will Build
 - A custom **VPC** with CIDR block (e.g., `10.0.0.0/16`)
@@ -84,7 +79,6 @@ It’s perfect for learning **AWS networking fundamentals** and showcasing your 
 - **Security Groups** and **Route Tables** properly configured
 - A **web server (Apache or Nginx)** running on the public EC2 instance
 
----
 
 ## Prerequisites
 - AWS Free Tier account  
