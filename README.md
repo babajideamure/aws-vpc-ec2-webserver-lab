@@ -51,7 +51,7 @@ It’s perfect for learning **AWS networking fundamentals** and showcasing your 
 - From **Public EC2** → connect to **Private EC2**
 
 ### 7. Install a Web Server
-```bash
+bash
 sudo yum update -y
 sudo yum install -y httpd
 sudo systemctl start httpd
@@ -90,40 +90,39 @@ Prerequisites
 Steps (High-Level)
 
  1. Create the VPC
-- CIDR: `10.0.0.0/16`
+    CIDR: `10.0.0.0/16`
 
  2. Add Subnets
-- Two public, two **private** (in different AZs)
+    Two public, two **private** (in different AZs)
 
  3. Attach Internet Gateway  
-- Enable internet access for public subnets
+    Enable internet access for public subnets
 
  4. Configure Route Tables  
-- Public subnets route → IGW  
-- Private subnets route → NAT Gateway
+    Public subnets route → IGW  
+    Private subnets route → NAT Gateway
 
  5. Launch EC2 Instances  
-- Public EC2: assign public IP  
-- Private EC2: no public IP  
+    Public EC2: assign public IP  
+    Private EC2: no public IP  
 
-### 6. SSH into EC2
-- From your laptop → connect to **Public EC2**  
-- From Public EC2 → connect to **Private EC2**
+ 6. SSH into EC2
+    From your laptop → connect to **Public EC2**  
+    From Public EC2 → connect to **Private EC2**
 
  7. Install a Web Server
-```bash
-sudo yum update -y
-sudo yum install -y httpd
-sudo systemctl start httpd
-sudo systemctl enable httpd
-echo "Hello from AWS Web Server!" | sudo tee /var/www/html/index.html
-````
+    bash
+    sudo yum update -y
+    sudo yum install -y httpd
+    sudo systemctl start httpd
+    sudo systemctl enable httpd
+    echo "Hello from AWS Web Server!" | sudo tee /var/www/html/index.html
 
  8. Test in Browser
 
-Visit:
+  Visit:
 
-http://<your-public-ec2-public-ip>
+  http://<your-public-ec2-public-ip>
 
 
 ## Learning Objectives
