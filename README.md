@@ -85,5 +85,5 @@ http://<your-public-ec2-public-ip>
 **Babajide Amure**
 AWS Instructor | Cloud & DevOps Consultant
 Abuja, Nigeria
-[https://jaydeploy.com](https://jaydeploy.com)
+[https://jaydeploy.com](https://www.jaydeploy.com)
 
