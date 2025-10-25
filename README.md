@@ -60,13 +60,11 @@ echo "Hello from AWS Web Server!" | sudo tee /var/www/html/index.html
 
 http://<your-public-ec2-public-ip>
 
-
 AWS VPC + EC2 Web Server Lab
 
 Overview
 This hands-on lab demonstrates how to design and deploy a secure AWS Virtual Private Cloud (VPC) with public and private subnets, EC2 instances, and a web server.  
 It’s perfect for learning AWS networking fundamentals and showcasing your cloud architecture skills.
-
 
 What You Will Build
 - A custom VPC with CIDR block (e.g., `10.0.0.0/16`)
@@ -79,13 +77,11 @@ What You Will Build
     Security Groups and **Route Tables** properly configured
 - A web server (Apache or Nginx) running on the public EC2 instance
 
-
 Prerequisites
 - AWS Free Tier account  
 - Basic understanding of EC2 and networking  
 - SSH key pair (`.pem` file)  
 - (Optional) AWS CLI installed locally
-
 
 Steps (High-Level)
 
@@ -119,10 +115,7 @@ Steps (High-Level)
     echo "Hello from AWS Web Server!" | sudo tee /var/www/html/index.html
 
  8. Test in Browser
-
-  Visit:
-
-  http://<your-public-ec2-public-ip>
+    Visit: [http://<your-public-ec2-public-ip>](http://<your-public-ec2-public-ip>)
 
 
 ## Learning Objectives
